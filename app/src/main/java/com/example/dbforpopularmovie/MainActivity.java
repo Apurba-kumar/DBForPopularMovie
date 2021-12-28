@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                @Override
                public void onClick(View v) {
                    Intent intent = new Intent(MainActivity.this,Details.class);
-                   intent.putExtra("lag", movieRes.getResults().get(position));
+                   intent.putExtra("result", movieRes.getResults().get(position));
                    startActivity(intent);
                }
            });

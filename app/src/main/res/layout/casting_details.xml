@@ -6,16 +6,23 @@
     <ImageView
         android:id="@+id/pic"
         android:layout_width="180dp"
-        android:layout_height="180dp"
-        android:layout_margin="20dp"
-        android:scaleType="fitXY"/>
+        android:layout_height="140dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+
+       />
+
     <TextView
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
         android:text="Random Text"
-        android:textSize="30dp"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+
+       />
 
 
 </LinearLayout>

@@ -22,7 +22,7 @@
         android:id="@+id/maintitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#5500000000"
+        android:background="#55000000"
         android:text="Apurba"
         android:textColor="@color/white"
         android:textSize="20dp"
@@ -32,10 +32,10 @@
 
     <TextView
         android:id="@+id/rating1"
-        android:textColor="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="9.4"
+        android:textColor="@color/black"
         android:textSize="18dp"
         android:translationX="150dp"
         android:translationY="220dp" />
@@ -57,7 +57,6 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="320dp"
         android:layout_marginRight="20dp"
-        android:minLines="7"
         android:maxLines="6"
         android:text="APURBA"
         android:textColor="@color/black"
@@ -79,11 +78,11 @@
         android:id="@+id/recycle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp" />
+        android:layout_marginBottom="20dp"
+        android:translationY="450dp" />
 
     <ImageButton
         android:id="@+id/bk"
